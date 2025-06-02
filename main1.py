@@ -5,7 +5,7 @@ total_price = 0
 
 price = float(input("Please enter a number that you want to remove or add VAT to. (In Decimals) : "))
 amount_Of_Vat = float(input("How much VAT do you want to add/remove?(in Decimals) : "))
-add_or_remove_VAT = input('Do you want to add VAT to your price or remove VAT from your price (type "add" or "remove") : ')
+add_or_remove_VAT = input('Do you want to add VAT to your price or remove VAT from your price (type "add" or "remove") : ').lower()
 
 if add_or_remove_VAT == "add":
 
